@@ -16,9 +16,13 @@ Perform an RNA-seq analysis on the male stage 10 embryo (SRR072893) using HISAT/
     tar xzvf SRP004442.stringtie.tar.gz
     ```
 
-2. Generate a quality control report for the reads using [FastQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
+    **NOTE:** This exercise is to prepare for tomorrow's exercises and will not be used for the rest of the homework.
+
+2. Generate a quality control report for the reads in SRR072893.fastq using [FastQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
 
     - HINT: fastqc -help
+
+    **NOTE:** If you are encountering errors, you may still have a truncated version of SRR072893.fastq.  Try making a fresh copy.
 
 3. Map reads to BDGP6 using [HISAT](https://ccb.jhu.edu/software/hisat/index.shtml)
 
