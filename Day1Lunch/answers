@@ -18,3 +18,28 @@ cagaacagatatttagattgcctctcattttctctcccatattatagggagaaatatgat
 3R	FlyBase	exon	722370	722621	.	-	.	gene_id "FBgn0085804"; gene_version "1"; transcript_id "FBtr0114258"; transcript_version "1"; exon_number "1"; gene_name "CR41571"; gene_source "FlyBase"; gene_biotype "pseudogene"; transcript_name "CR41571-RA"; transcript_source "FlyBase"; transcript_biotype "pseudogene"; exon_id "FBtr0114258-E1"; exon_version "1";
 3R	FlyBase	gene	835381	2503907	.	+	.	gene_id "FBgn0267431"; gene_version "1"; gene_name "CG45784"; gene_source "FlyBase"; gene_biotype "protein_coding";
 3R	FlyBase	transcript	835381	2503907	.	+	.	gene_id "FBgn0267431"; gene_version "1"; transcript_id "FBtr0346770"; transcript_version "1"; gene_name "CG45784"; gene_source "FlyBase"; gene_biotype "protein_coding"; transcript_name "CG45784-RA"; transcript_source "FlyBase"; transcript_biotype "protein_coding";
+
+1. /Users/cmdb/qbb2015/genomes $ wc -l BDGP6.fa
+ 2398219 BDGP6.fa
+ 
+2. /Users/cmdb/qbb2015/genomes $ grep "Sxl" BDGP6.Ensembl.81.gtf
+
+3. /Users/cmdb/qbb2015/genomes $ grep "Sxl" BDGP6.Ensembl.81.gtf | cut -f3| sort| uniq
+CDS
+UTR
+exon
+gene
+start_codon
+stop_codon
+transcript
+
+4. /Users/cmdb/qbb2015/genomes $ grep "Sxl" BDGP6.Ensembl.81.gtf | cut -f3| sort| uniq -c
+ 129 CDS
+ 115 UTR
+ 194 exon
+   1 gene
+  25 start_codon
+  25 stop_codon
+  25 transcript
+  
+ 
