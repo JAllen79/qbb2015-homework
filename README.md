@@ -21,3 +21,5 @@ Fall 2015 - AS.020.607 - Quantitative Biology Bootcamp
 ### Day 1
 
 - [Introductory Slides](https://drive.google.com/open?id=0B5sz_r5b4JZGSHpxb3hWM0VpMGM)
+- [Morning Slides](https://dl.dropboxusercontent.com/u/169950361/150824-QBB2015-Day1-morning.key.pdf)
+- [Afternoon Slides](https://dl.dropboxusercontent.com/u/169950361/150824-QBB2015-Day1-morning.key.pdf)
