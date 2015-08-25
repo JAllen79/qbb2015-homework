@@ -14,4 +14,6 @@ For each question, submit **two** files to your GitHub repository:
     - HINT: column 3
 3. Load the file /Users/cmdb/qbb2015/rawdata/samples.csv.  Loop through these 16 samples and load the corresponding t_data.ctab file in /Users/cmdb/qbb2015/stringtie.  Print out out the row for transcript FBtr0331261.
     - HINT: if samples.csv doesn't exist, `cd /Users/cmdb/qbb2015` and run `git pull`
-    - HINT: .read_csv()    
+    - HINT: .read_csv()
+4. Make a boxplot of the top 1/3rd, middle 1/3rd, and bottom third FPKM values in SRR072893
+    - HINT: .boxplot()
