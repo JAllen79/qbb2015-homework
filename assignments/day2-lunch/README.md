@@ -11,7 +11,7 @@ For each question, submit **two** files to your GitHub repository:
 Here's one way to catch the output:
 
 ```shell
-/Users/cmdb/qbb2015/day2 $ ./day2-exercise2.py > day2-exercise2.out 
+/Users/cmdb/qbb2015-homework/day2-lunch $ ./day2-exercise2.py > day2-exercise2.out 
 ```
 
 **Basic Exercises**
