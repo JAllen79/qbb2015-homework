@@ -16,7 +16,7 @@ NOTE: place all your Python code into a file and add it to your Github repositor
 4. Extract just the column indicating which chromosome read aligns too
   - HINT: .split()
 5. Calculate how many alignments are on chromosome 2L 2R 3L 3R 4 X (keep track separately)
-  - HINT: make individual counter variables (or a list)
+  - Use a dictionary!
 6. Calculate average MAPQ score
   - HINT: counter and total variables
 7. Count number of reads that start their alignment on chromosome 2L between base 10000 and 20000 (inclusive)
