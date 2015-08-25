@@ -17,3 +17,9 @@ Fall 2015 - AS.020.607 - Quantitative Biology Bootcamp
   - [The Unix Shell](http://swcarpentry.github.io/shell-novice/)
   - [Version Control with Git](http://swcarpentry.github.io/git-novice/)
   - [Programming with Python](http://swcarpentry.github.io/python-novice-inflammation/)
+
+### Day 1
+
+- [Introductory Slides](https://drive.google.com/open?id=0B5sz_r5b4JZGSHpxb3hWM0VpMGM)
+- [Morning Slides](https://dl.dropboxusercontent.com/u/169950361/150824-QBB2015-Day1-morning.key.pdf): Intro to UNIX; grep, cut, sort, uniq; awk
+- [Afternoon Slides](https://dl.dropboxusercontent.com/u/169950361/150824-QBB2015-Day1-afternoon.key.pdf): Intro to RNA-seq; installing with brew; compiling; BASH scripting
