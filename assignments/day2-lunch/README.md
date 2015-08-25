@@ -1,7 +1,7 @@
 QBB2015 - Day 2 - Lunch Exercise
 ================================
 
-Explore the .SAM file generated during last night's homework (/Users/cmdb/qbb2015/day1/SRR072893.sam)
+Explore the [.SAM file](https://samtools.github.io/hts-specs/SAMv1.pdf) generated during last night's homework (/Users/cmdb/qbb2015/day1/SRR072893.sam)
 
 For each question, submit **two** files to your GitHub repository:
 
