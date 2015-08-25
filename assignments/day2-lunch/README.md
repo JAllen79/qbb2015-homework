@@ -19,7 +19,7 @@ Here's one way to catch the output:
 1. Count number of alignments
   - HINT: counter variable
 2. Count number of alignments that match perfectly to the genome
-  - HINT: google sam format optional fields
+  - HINT: google sam format optional fields and look for "edit distance"
 3. Count number of reads that map to exactly one location in the genome
   - HINT: number of hits
 4. For the first 10 alignments, print just the column indicating which chromosome a given read aligns to
