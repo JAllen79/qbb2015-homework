@@ -1,8 +1,9 @@
-### Lunch Exercise
+QBB2015 - Day 2 - Lunch Exercise
+================================
 
 Explore .SAM file generated during last night's homework (accepted_hits.sam?)
 
-Basic Exercises
+**Basic Exercises**
 
 NOTE: place all your Python code into a file and add it to your Github repository
 
@@ -21,7 +22,7 @@ NOTE: place all your Python code into a file and add it to your Github repositor
 7. Count number of reads that start their alignment on chromosome 2L between base 10000 and 20000 (inclusive)
   - HINT: and
 
-Advanced Exercises
+**Advanced Exercises**
 
 - Find position at which the most reads start their alignment
   - HINT 1: Python version of `cut -f3,4 accepted_hits.sam | sort | uniq -c | sort -n`
