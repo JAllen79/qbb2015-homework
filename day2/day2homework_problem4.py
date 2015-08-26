@@ -7,11 +7,11 @@ annotation = "/Users/cmdb/qbb2015/stringtie/SRR072893/t_data.ctab"
 
 df = pd.read_table(annotation)
 ROI = df["FPKM"] > 0
-print df[ROI]
-df1 = df["FPKM"]
-top = df1[0:11572]
-middle = df1[11572:22144]
-end = df1[22144:34718]
+print df["FPKM"][ROI]
+df1 = df["FPKM"][ROI]
+top = df1[0:3182]
+middle = df1[3182:6365]
+end = df1[6365:9548]
 
 plt.figure()
 plt.title("Exercise4")
