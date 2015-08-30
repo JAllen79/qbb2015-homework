@@ -49,16 +49,18 @@ class ChromosomeLocationBitArrays( object ):
         return ChromosomeLocationBitArrays( 
             dicts=copy.deepcopy( self.arrays ) )
             
-    def a_and_not_b(self, other):
-        rval = {}
+    def a_and_not_b(self):
+        roi = []
         for chrom in self.arrays:
-            rval[chrom] = self.arrays[chrom] & other.complement[chrom]
-            chrom = fields[0]
-            start = int(fields[1])
-            end = int(fields[2])
-        #return ChromosomeLocationBitArrays(dicts = rval)
-        for position in self.arrays:
-            if position == 1:
-                return rval((chrom, start, end))
+            row = self.arrays[chrom]
+            for i, x in enumerate(row):
+                if i % 2000000 == 0:
+                    print len(roi), i, chrom
+                if x == 1 and row[i-1] == 0:
+                    start = i
+                if x == 0 and row[i-1] == 1:
+                    stop = i
+                    roi.append((chrom, start, stop))
+        return roi
             
        
