@@ -1,0 +1,17 @@
+Answers
+
+1. got and untarred
+
+2. fastqc SRR072893.fastq
+
+3. hisat -p 4 BDGP6 /Users/cmdb/qbb2015/day1/SRR072893.fastq -S output2.sam
+
+4. 
+samtools view -b output2.sam > output2.bam
+samtools sort output2.bam output2_sort
+samtools index output2_sort.bam
+
+5.
+stringtie output2_sort.bam -p 4 -e -G BDGP6.Ensembl.81.gtf -o stringtieout.gtf -B
+
+6. see doAnalyis_fixed.sh
